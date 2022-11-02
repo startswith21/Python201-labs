@@ -1,0 +1,17 @@
+Create two separate virtual environments in two different folders.
+- Activate the first one, and install the Django package with the specific
+  version 1.8 then freeze your dependencies into a `requirements.txt` file.
+  Then deactivate the first virtual environment.
+  #django==1.8
+- Repeat the process with your second venv, but install Django 2.2 instead.
+  #django==2.2
+- Compare the two `requirements.txt` files and post their content below.
+
+requirements.txt for django1.8:
+Django==1.8
+
+requirements.txt for django2.2:
+Django==2.2
+pytz==2022.6
+sqlparse==0.4.3
+

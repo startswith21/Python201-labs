@@ -1,0 +1,21 @@
+Create a new folder. Inside of that folder:
+1. Create a new Python virtual environment
+#mkdir
+#python3 -m venv venv
+2. Activate the virtual environment
+#source venv/bin/activate
+3. Install three external packages in the virtual environment.
+#python3 -m pip install mypy
+#python3 -m pip install pandas
+#python3 -m pip install pipenv
+4. Freeze the installed packages to a `requirements.txt` file.
+#pip freeze > requirements.txt
+5. Deactivate the virtual environment.
+#deactivate
+6. Delete the virtual environment.  
+#is there a command for this?
+7. Create a new virtual environment.
+#python3 -m venv venv
+8. Install the packages that you recorded in the `requirements.txt` file.
+#python3 -m pip install -r requirements.txt
+  
